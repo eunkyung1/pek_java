@@ -21,6 +21,7 @@ public class JA0831_02 {
 		String str2 = "가나다라";
 		System.out.println(str);
 		
+	
 
 	}
 

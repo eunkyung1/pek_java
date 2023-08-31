@@ -1,3 +1,4 @@
+
 package p0831;
 
 public class JA0831_05 {
@@ -32,8 +33,10 @@ public class JA0831_05 {
 		int eng1 = 99;
 		int math1 = 100;
 		int total = 0;
+		double avg = 0;
 		
 		total = kor1+eng1+math1;
+		avg = total/3.0;
 		
 		System.out.println("이름 : "+(name));
 		System.out.println("국어점수: "+(kor1));
@@ -42,6 +45,14 @@ public class JA0831_05 {
 		System.out.println("합계 : "+(total));
 	
 		
+		System.out.println("---------pratice---------------");
+		
+		System.out.printf("이름 : %s \n",name);
+		System.out.printf("국어점수는 %d \n", kor1);
+		System.out.printf("영어점수는 %d \n",eng1);
+		System.out.printf("수학점수는 %d \n",math1);
+		System.out.printf("합계는 %d \n",total);
+		System.out.printf("평균은 %.2f \n",avg);
 
 		
 		

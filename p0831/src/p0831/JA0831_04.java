@@ -25,6 +25,11 @@ public class JA0831_04 {
 		char grade2 =  ' ';//char타입은 아무값을 넣지 않으려면 공백을 띄워줌.
 		String str = ""; //string은 상관없음.
 		
+		System.out.println("-------pratice---------");
+		
+	
+		System.out.println(name);
+		
 		
 		
 		

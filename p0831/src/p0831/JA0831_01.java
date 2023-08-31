@@ -15,7 +15,13 @@ public class JA0831_01 {
 		System.out.println(total);
 		System.out.println(avg);
 		
-
+	System.out.println("------pratice-------");
+	
+	 System.out.printf("합계는 %d 입니다.\n", total);
+	 System.out.printf("평균은 %.2f 입니다. \n",avg);
+	 
+	 
+	 
 	}
 
 }
